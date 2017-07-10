@@ -21,6 +21,9 @@ If the column type is ```varchar```, the string must be enclosed in single quote
 ```select * from <table_name> col=value```
 Similar to ```insert```, if the column value is a string, the value must be enclosed in single quotes.  The output is in CSV format.
 
+```list tables```
+List all tables in currently set database.
+
 ## Unitest and code coverage
 
 Install the ```coverage``` pip package.  First run ```coverage run unittest_datastore.py``` to execute all the test cases and then run ```coverage report -m``` to get the code coverage report.
